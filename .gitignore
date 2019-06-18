@@ -1,0 +1,7 @@
+# Build artifacts
+*.zip
+
+# Mac files
+.DS_Store
+._*
+
