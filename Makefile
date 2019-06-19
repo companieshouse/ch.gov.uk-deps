@@ -1,23 +1,27 @@
-LOCAL           ?= ./local
+artifact_name   := payments.web.ch.gov.uk
 
-SMARTPAN_URL    ?= http://darkpan.ch.gov.uk:7050
+version         := unversioned
 
-GETPAN_CPUS     ?= -cpus 1 # Setting to null enables getpan to use all cores
-GETPAN_LOGLEVEL ?= INFO
-GETPAN_CACHEDIR ?= ./.gopancache
-GETPAN_ARGS     ?= $(GETPAN_CPUS) -cachedir=$(GETPAN_CACHEDIR) -smart $(SMARTPAN_URL) -loglevel=$(GETPAN_LOGLEVEL) -nodepdump -nocpan -nobackpan -metacpan
+local           := ./local
+
+smartpan_url    := http://darkpan.ch.gov.uk:7050
+
+getpan_cpus     := 1
+getpan_loglevel := INFO
+getpan_cachedir := ./.gopancache
+getpan_args     := -cpus $(getpan_cpus) -cachedir=$(getpan_cachedir) -smart $(smartpan_url) -loglevel=$(getpan_loglevel) -nodepdump -nocpan -nobackpan -metacpan
 
 .PHONY: all
 all: getpan
 
 .PHONY: getpan
 getpan:
-	getpan $(GETPAN_ARGS)
+	getpan $(getpan_args)
 
 .PHONY: clean
 clean:
-	rm -rf $(LOCAL)
-	rm -rf $(GETPAN_CACHEDIR)
+	rm -rf $(local)
+	rm -rf $(getpan_cachedir)
 
 .PHONY: package
 package:
