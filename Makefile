@@ -1,4 +1,4 @@
-artifact_name   := payments.web.ch.gov.uk
+artifact_name   := ch.gov.uk-deps
 
 version         := unversioned
 
