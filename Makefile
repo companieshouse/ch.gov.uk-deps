@@ -27,7 +27,7 @@ ifndef version
 	$(error No version given. Aborting)
 endif
 	$(eval tmpdir:=$(shell mktemp -d build-XXXXXXXXXX))
-	cp -r $(local) $(tmpdir)
+	cp -r $(local)/* $(tmpdir)
 	cd $(tmpdir); zip -r ../$(artifact_name)-$(version).zip *
 	rm -rf $(tmpdir)
 
