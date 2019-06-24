@@ -1,7 +1,5 @@
 artifact_name   := ch.gov.uk-deps
 
-version         := unversioned
-
 local           := ./local
 
 smartpan_url    := http://darkpan.ch.gov.uk:7050
