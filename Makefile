@@ -2,7 +2,7 @@ artifact_name   := ch.gov.uk-deps
 
 local           := ./local
 
-smartpan_url    := http://darkpan.ch.gov.uk:7050
+smartpan_url    := https://smartpan.ci.platform.aws.chdev.org
 
 getpan_cpus     := 1
 getpan_loglevel := INFO
