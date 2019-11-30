@@ -1,6 +1,8 @@
 # Build artifacts
 build-*
 *.zip
+.gopancache
+local
 
 # Mac files
 .DS_Store
