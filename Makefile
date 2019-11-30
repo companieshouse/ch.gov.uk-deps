@@ -10,7 +10,7 @@ getpan_cachedir := ./.gopancache
 getpan_args     := -cpus $(getpan_cpus) -cachedir=$(getpan_cachedir) -smart $(smartpan_url) -loglevel=$(getpan_loglevel) -nodepdump -nocpan -nobackpan -metacpan
 
 .PHONY: all
-all: getpan
+all: getpan package
 
 .PHONY: getpan
 getpan:
