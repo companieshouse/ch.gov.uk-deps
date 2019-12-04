@@ -18,6 +18,7 @@ getpan:
 
 .PHONY: clean
 clean:
+	rm -rf build-*
 	rm -rf $(local)
 	rm -rf $(getpan_cachedir)
 
