@@ -2,8 +2,8 @@
 # are resolved upfront by "pre-requiring" them.
 # XXX unlike the rest of this file, the order in this
 # section is important.
-requires 'Devel::Declare', '0.006019';
-requires 'List::Util', '1.54';
+requires 'Devel::Declare', '==0.006019';
+requires 'List::Util', '==1.54';
 requires 'DateTime::Locale', '==1.25';
 requires 'DateTime::TimeZone', '==2.38';
 requires 'Locale::Messages', '==1.29';
