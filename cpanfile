@@ -2,8 +2,8 @@
 # are resolved upfront by "pre-requiring" them.
 # XXX unlike the rest of this file, the order in this
 # section is important.
-
-# Pin dependencies for api-enumerations files to be read correctly
+requires 'DateTime::Locale', '==1.25';
+requires 'DateTime::TimeZone', '==2.38';
 requires 'Locale::Messages', '==1.29';
 requires 'YAML::XS', '==0.74';
 requires 'YAML', '==1.26';
