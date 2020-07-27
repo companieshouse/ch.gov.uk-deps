@@ -26,7 +26,7 @@ requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::HealthCheck', '==0.11';
 requires 'CH::MojoX::Plugin::QueueAPI', '==0.31';
 requires 'CH::MojoX::Plugin::Xslate', '==0.34';
-requires 'CH::MojoX::SignIn::Plugin', '==0.48';
+requires 'CH::MojoX::SignIn::Plugin', '==0.49';
 requires 'CH::Perl', '==0.31';
 requires 'Crypt::Rijndael', '==1.12';
 requires 'Data::Dumper::Concise', '==2.023';
