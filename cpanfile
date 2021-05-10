@@ -12,6 +12,9 @@ requires 'YAML', '==1.26';
 
 requires 'Mojo::Redis', '==1.02'; # Needs to be before MojoX::Plugin::AnyCache
 requires 'Log::Log4perl', '==1.49'; # Needs to be before CH::Perl
+requires 'Data::MessagePack::Stream', '==1.04';
+# transient dep of Fluent::Logger which is a transient dep of Log::Log4perl::Appender::Fluent and breaks with 1.0.5
+requires 'Fluent::Logger', '==0.28';
 requires 'Log::Log4perl::Appender::Fluent', '==0.04'; # Needs to be before CH::Perl
 requires 'AnyEvent', '==7.12';
 requires 'Mojolicious', '==5.47';
