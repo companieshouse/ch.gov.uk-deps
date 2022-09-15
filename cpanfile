@@ -22,7 +22,7 @@ requires 'Moose', '==2.1402';
 
 requires 'CH::MojoX::Administration::Plugin', '==0.35';
 requires 'Net::CompaniesHouse::Admin', '==0.36'
-requires 'Net::CompaniesHouse', '==0.67';
+requires 'Net::CompaniesHouse', '==0.68';
 requires 'CH::MojoX::Plugin::API', '==0.40';
 requires 'CH::MojoX::Plugin::Config', '==0.31';
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
