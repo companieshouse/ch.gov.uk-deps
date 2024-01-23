@@ -21,9 +21,9 @@ requires 'Mojolicious', '==5.47';
 requires 'Moose', '==2.1402';
 
 requires 'CH::MojoX::Administration::Plugin', '==0.35';
-requires 'Net::CompaniesHouse::Admin', '==0.36'
-requires 'Net::CompaniesHouse', '==0.68';
-requires 'CH::MojoX::Plugin::API', '==0.40';
+requires 'Net::CompaniesHouse::Admin', '==0.37'
+requires 'Net::CompaniesHouse', '==0.69';
+requires 'CH::MojoX::Plugin::API', '==0.41';
 requires 'CH::MojoX::Plugin::Config', '==0.31';
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::HealthCheck', '==0.11';
