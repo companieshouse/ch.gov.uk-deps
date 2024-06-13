@@ -54,6 +54,7 @@ requires 'MojoX::URL::Sign', '==0.30';
 requires 'MooseX::Model', '==0.31';
 requires 'Protocol::Redis::XS', '==0.05';
 requires 'Readonly', '==2.00';
+requires 'URI', '==1.71';
 
 test_requires 'CH::Test', '==0.32';
 test_requires 'Test::Differences', '==0.63';
