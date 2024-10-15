@@ -49,7 +49,7 @@ requires 'MojoX::Plugin::PODRenderer', '==0.30';
 requires 'MojoX::Plugin::Statsd', '==0.30';
 requires 'MojoX::Renderer::IncludeLater', '==0.30';
 requires 'MojoX::Renderer::Xslate', '==0.092';
-requires 'MojoX::Security::Session', '==0.38';
+requires 'MojoX::Security::Session', '==0.43';
 requires 'MojoX::URL::Sign', '==0.30';
 requires 'MooseX::Model', '==0.31';
 requires 'Protocol::Redis::XS', '==0.05';
