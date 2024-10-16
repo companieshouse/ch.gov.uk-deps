@@ -31,6 +31,7 @@ requires 'CH::MojoX::Plugin::QueueAPI', '==0.31';
 requires 'CH::MojoX::Plugin::Xslate', '==0.36';
 requires 'CH::MojoX::SignIn::Plugin', '==0.53';
 requires 'CH::Perl', '==0.31';
+requires 'Crypt::CBC', '==2.33';
 requires 'Crypt::Rijndael', '==1.12';
 requires 'Data::UUID', '==1.219';
 requires 'Data::Dumper::Concise', '==2.023';
