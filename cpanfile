@@ -52,6 +52,7 @@ requires 'MojoX::Renderer::Xslate', '==0.092';
 requires 'MojoX::Security::Session', '==0.43';
 requires 'MojoX::URL::Sign', '==0.30';
 requires 'MooseX::Model', '==0.31';
+requires 'Sub::Identify', '==0.14';
 requires 'Protocol::Redis::XS', '==0.05';
 requires 'Readonly', '==2.00';
 requires 'URI', '==1.71';
