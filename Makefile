@@ -35,9 +35,9 @@ endif
 .PHONY: package-ecs
 package-ecs:
 ifndef version
-        $(error No version given. Aborting)
+	$(error No version given. Aborting)
 endif
-        $(eval tmpdir:=$(shell mktemp -d build-XXXXXXXXXX))
-        cp -r $(local)/* $(tmpdir)
-        cd $(tmpdir); zip -r ../$(artifact_name)-ecs-$(version).zip *
-        rm -rf $(tmpdir)
+	$(eval tmpdir:=$(shell mktemp -d build-XXXXXXXXXX))
+	cp -r $(local)/* $(tmpdir)
+	cd $(tmpdir); zip -r ../$(artifact_name)-ecs-$(version).zip *
+	rm -rf $(tmpdir)
