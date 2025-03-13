@@ -33,7 +33,7 @@ endif
 	rm -rf $(tmpdir)
 
 .PHONY: package-ecs
-package:
+package-ecs:
 ifndef version
         $(error No version given. Aborting)
 endif
