@@ -39,5 +39,5 @@ ifndef version
 endif
         $(eval tmpdir:=$(shell mktemp -d build-XXXXXXXXXX))
         cp -r $(local)/* $(tmpdir)
-        cd $(tmpdir); zip -r ../$(artifact_name)-$(version).zip *
+        cd $(tmpdir); zip -r ../$(artifact_name)-ecs-$(version).zip *
         rm -rf $(tmpdir)
