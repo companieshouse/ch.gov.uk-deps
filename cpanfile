@@ -2,6 +2,9 @@
 # are resolved upfront by "pre-requiring" them.
 # XXX unlike the rest of this file, the order in this
 # section is important.
+
+# Needs to be before AnyEvent and transitive deps Net::SSLeay and ExtUtils::MakeMaker
+requires 'EV', '==4.34';
 requires 'Devel::Declare', '==0.006019';
 requires 'List::Util', '==1.54';
 requires 'DateTime::Locale', '==1.25';
