@@ -29,7 +29,7 @@ requires 'Net::CompaniesHouse', '==0.69';
 requires 'CH::MojoX::Plugin::API', '==0.41';
 requires 'CH::MojoX::Plugin::Config', '==0.31';
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
-requires 'CH::MojoX::Plugin::HealthCheck', '==0.11';
+requires 'CH::MojoX::Plugin::HealthCheck', '==0.12';
 requires 'CH::MojoX::Plugin::QueueAPI', '==0.31';
 requires 'CH::MojoX::Plugin::Xslate', '==0.36';
 requires 'CH::MojoX::SignIn::Plugin', '==0.55';
