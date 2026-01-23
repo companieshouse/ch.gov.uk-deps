@@ -23,7 +23,7 @@ requires 'AnyEvent', '==7.12';
 requires 'Mojolicious', '==5.47';
 requires 'Moose', '==2.1402';
 
-requires 'CH::MojoX::Administration::Plugin', '==0.35';
+requires 'CH::MojoX::Administration::Plugin', '==0.38';
 requires 'Net::CompaniesHouse::Admin', '==0.37'
 requires 'Net::CompaniesHouse', '==0.69';
 requires 'CH::MojoX::Plugin::API', '==0.42';
