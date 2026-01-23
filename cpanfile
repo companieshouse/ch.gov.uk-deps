@@ -4,7 +4,7 @@
 # section is important.
 
 # Needs to be before AnyEvent and transitive deps Net::SSLeay and ExtUtils::MakeMaker
-requires 'EV', '==4.34';
+requires 'EV', '==5.47';
 requires 'Devel::Declare', '==0.006019';
 requires 'List::Util', '==1.54';
 requires 'DateTime::Locale', '==1.25';
