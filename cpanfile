@@ -32,7 +32,7 @@ requires 'CH::MojoX::Plugin::Exception', '==0.31';
 requires 'CH::MojoX::Plugin::HealthCheck', '==0.13';
 requires 'CH::MojoX::Plugin::QueueAPI', '==0.31';
 requires 'CH::MojoX::Plugin::Xslate', '==0.36';
-requires 'CH::MojoX::SignIn::Plugin', '==0.58';
+requires 'CH::MojoX::SignIn::Plugin', '==0.59';
 requires 'CH::Perl', '==0.31';
 requires 'Crypt::Rijndael', '==1.12';
 requires 'Data::UUID', '==1.219';
