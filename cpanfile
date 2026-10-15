@@ -25,7 +25,7 @@ requires 'Moose', '==2.1402';
 
 requires 'CH::MojoX::Administration::Plugin', '==0.38';
 requires 'Net::CompaniesHouse::Admin', '==0.37'
-requires 'Net::CompaniesHouse', '==0.70';
+requires 'Net::CompaniesHouse', '==0.71';
 requires 'CH::MojoX::Plugin::API', '==0.42';
 requires 'CH::MojoX::Plugin::Config', '==0.31';
 requires 'CH::MojoX::Plugin::Exception', '==0.31';
